@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+
+    background-image: url(/images/bg-top.jpg),url(/images/bg-bottom.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: top center, bottom center;
+    background-color: #f2f2f2;
+}
+:root{
+    --normal-width: 974px;
+    --large-width: 100px;
+}
+a {
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+.container{
+    width: var(--normal-width);
+    margin: auto;
+}
+.header{
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+    color:#ffff;
+}
+.header a:hover {
+    opacity: 0.6;
+}
+
+.header li{
+    display: inline-table;
+}
+.header-left li{
+    margin-top: 20px;
+    border-right: 2px solid white;
+    padding:0 18px;
+}
+.header-right li{
+    margin-top: 20px;
+    border-left: 2px solid white;
+    padding:0 21px;
+}
+.main{
+    display: grid;
+    margin-top: 500px;
+    min-height: 270px;
+    grid-template-columns: 241px 490px 254px;
+    grid-template-rows: 126px 98px 30px;
+    gap: 5px;
+    background-color: #112141;
+}
+#image1{
+    background-image: url(/images/btn_taigame.jpg);
+}
+#image2{
+    background-image: url(/images/slider-01.gif);
+    grid-row: 1/4;
+    grid-column: 2;
+}
+#image3{
+    background-image: url(/images/buttons-right.png);
+    grid-row: 1/3;
+    grid-column: 3;
+}
+#image5{
+    background-image: url(/images/hotline.png);
+    grid-column: 3;
+    grid-row: 3;
+}
+#nap-the{
+    width:240px;
+    height:130px;
+    margin-left: 2px;
+    background-image: url(/images/buttons-left.png);
+    background-position: 0 0;
+    
+}
+#nap-the:hover{
+    background-position: -248px 0px;
+}
+.bottom-image{
+    display: grid;
+    grid-template-columns: 750px 254px;
+    grid-template-rows: 92px;
+    gap: 5px;
+}
+#image6{
+    background-image: url(/images/cuuamlenh-vip-giftcode.png);
+    grid-column: 1;
+    grid-row: 1;
+    margin: 5px 0 0 0;
+}
+#image7{
+    width: 227px;
+    height:279px;
+    background-image: url(/images/links-right.png);
+    grid-column: 2;
+    grid-row: 1/2;
+    margin: 5px 0 0 0;
+}
+.table{
+    background-color: #112141;
+    width: 742px;
+    height: 670px;
+    border-bottom: 1px solid #112141;
+}
+.tinthongbao{
+    background-image: url(/images/news-header-bg.png);
+    height: 64px;
+    width: 742px;
+}
+.tinthongbao li{
+    display: inline-table;
+    margin: 25px 20px 0 25px;
+}
+.tinthongbao a{
+    color: #CAB478;
+}
+.noidung{
+    width: 731px;
+    background-color:aliceblue ;
+    margin: auto;
+}
+.box-anh img{
+    border: 10px solid #B69B74;
+    margin: 19px 25px 10px 50px;
+}
+#box-title{
+    border-left: 5px solid red;
+    color: red;
+}
+.noidung1{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thongtin{
+    margin: 50px 50px 0 0;
+    line-height: 20px;
+}
+.box-time{
+    font: 13px none italic none;
+    color: #918B8c;
+}
+.box-noidung{
+    font-size: 15px;
+    color: #918B8c;
+}
+.button .lentren,.xemthem {
+    background-color: #112141;
+    border: 3px solid #6f7179;
+    min-width: 93px;
+    height: 44px;
+}
+.button .lentren a {
+    font-size: 14px;
+    text-decoration: none;
+    color:#6f7179;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+
+}
+.button .xemthem a {
+    font-size: 14px;
+    text-decoration: none;
+    color:#6f7179;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+}
+.button{
+    width: 230px;   
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button button{
+    color: rgba(250, 250, 250, 0.63);
+    padding: 8px;
+}
+.longden{
+    background: url(./images/long-den.png) no-repeat;
+    height: 243px;
+    width: 100px;
+    position: relative;
+    left:-76px;
+    top: -1070px;
+    z-index: 9;
+}
+.footer{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.footer img{
+    margin-right: 90px;
+}
+.diachi{
+    font-size: 13px;
+    text-align: center;
+}
+.support li{
+    display: inline-table;
+    padding: 0 10px;
+}
+.support li+li{
+    border-left: 1px solid;
+}
+.diachi ul{
+    list-style-type: none ;
+}
+.diachi a{
+    color: black;
+}
