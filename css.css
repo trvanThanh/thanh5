@@ -5,7 +5,7 @@
 }
 body{
 
-    background-image: url(/images/bg-top.jpg),url(/images/bg-bottom.jpg);
+    background-image: url(images/bg-top.jpg),url(images/bg-bottom.jpg);
     background-repeat: no-repeat,no-repeat;
     background-position: top center, bottom center;
     background-color: #f2f2f2;
@@ -58,20 +58,20 @@ a {
     background-color: #112141;
 }
 #image1{
-    background-image: url(/images/btn_taigame.jpg);
+    background-image: url(images/btn_taigame.jpg);
 }
 #image2{
-    background-image: url(/images/slider-01.gif);
+    background-image: url(images/slider-01.gif);
     grid-row: 1/4;
     grid-column: 2;
 }
 #image3{
-    background-image: url(/images/buttons-right.png);
+    background-image: url(images/buttons-right.png);
     grid-row: 1/3;
     grid-column: 3;
 }
 #image5{
-    background-image: url(/images/hotline.png);
+    background-image: url(images/hotline.png);
     grid-column: 3;
     grid-row: 3;
 }
@@ -79,7 +79,7 @@ a {
     width:240px;
     height:130px;
     margin-left: 2px;
-    background-image: url(/images/buttons-left.png);
+    background-image: url(images/buttons-left.png);
     background-position: 0 0;
     
 }
@@ -93,7 +93,7 @@ a {
     gap: 5px;
 }
 #image6{
-    background-image: url(/images/cuuamlenh-vip-giftcode.png);
+    background-image: url(images/cuuamlenh-vip-giftcode.png);
     grid-column: 1;
     grid-row: 1;
     margin: 5px 0 0 0;
@@ -101,7 +101,7 @@ a {
 #image7{
     width: 227px;
     height:279px;
-    background-image: url(/images/links-right.png);
+    background-image: url(images/links-right.png);
     grid-column: 2;
     grid-row: 1/2;
     margin: 5px 0 0 0;
@@ -113,7 +113,7 @@ a {
     border-bottom: 1px solid #112141;
 }
 .tinthongbao{
-    background-image: url(/images/news-header-bg.png);
+    background-image: url(images/news-header-bg.png);
     height: 64px;
     width: 742px;
 }
@@ -194,7 +194,7 @@ a {
     padding: 8px;
 }
 .longden{
-    background: url(./images/long-den.png) no-repeat;
+    background: url(images/long-den.png) no-repeat;
     height: 243px;
     width: 100px;
     position: relative;
